@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Automações Python sob medida para o seu negócio. Elimine tarefas manuais repetitivas com scripts rápidos, confiáveis e de baixo custo.">
+  <title>AutoNova — Automações Python sob medida</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,700;1,9..144,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" type="module"></script>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav-wrap">
+  <nav class="nav">
+    <a href="#" class="nav-logo">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+        <rect x="2" y="2" width="7" height="7" fill="currentColor"/>
+        <rect x="11" y="2" width="7" height="7" fill="currentColor" opacity=".4"/>
+        <rect x="2" y="11" width="7" height="7" fill="currentColor" opacity=".4"/>
+        <rect x="11" y="11" width="7" height="7" fill="currentColor"/>
+      </svg>
+      AutoNova
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="#beneficios">Benefícios</a></li>
+      <li><a href="#como-funciona">Como funciona</a></li>
+      <li><a href="#contato" class="nav-cta">Falar com desenvolvedor</a></li>
+    </ul>
+    <button class="nav-mobile-toggle" aria-label="Abrir menu" aria-expanded="false">
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+        <path d="M3 6h16M3 11h16M3 16h16" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+    </button>
+  </nav>
+</header>
+
+<!-- ============ HERO ============ -->
+<main>
+<section class="hero" id="hero">
+  <div class="hero-eyebrow">
+    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+      <circle cx="7" cy="7" r="3" fill="#22c55e"/>
+      <circle cx="7" cy="7" r="6" stroke="#22c55e" stroke-width="1" opacity=".3"/>
+    </svg>
+    Disponível para novos projetos
+  </div>
+
+  <h1 class="hero-title">
+    Pare de perder horas<br>
+    em tarefas que um<br>
+    <em>script resolve.</em>
+  </h1>
+
+  <p class="hero-sub">
+    Automações Python sob medida para o seu negócio.<br>
+    Entrega em dias. Sem enrolação, sem mensalidade.
+  </p>
+
+  <a href="#contato" class="btn-cta">
+    Quero minha automação
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+      <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </a>
+
+  <div class="hero-proof">
+    <span>
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+        <path d="M2 7l3.5 3.5L12 3" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      Sem contrato de longo prazo
+    </span>
+    <span>
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+        <path d="M2 7l3.5 3.5L12 3" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      Entrega com garantia de revisão
+    </span>
+    <span>
+      <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden="true">
+        <path d="M2 7l3.5 3.5L12 3" stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      Prazo médio: 1–3 dias
+    </span>
+  </div>
+
+  <div class="hero-visual" aria-hidden="true">
+    <div class="code-card">
+      <div class="code-card-bar">
+        <span class="code-dot r"></span>
+        <span class="code-dot y"></span>
+        <span class="code-dot g"></span>
+        <span class="code-file">organizer.py</span>
+      </div>
+      <pre class="code-body"><span class="c-kw">import</span> <span class="c-mod">os, shutil</span>
+<span class="c-kw">from</span> <span class="c-mod">pathlib</span> <span class="c-kw">import</span> Path
+
+<span class="c-kw">def</span> <span class="c-fn">organizar</span>(pasta):
+    <span class="c-kw">for</span> arquivo <span class="c-kw">in</span> Path(pasta).iterdir():
+        mover_para_categoria(arquivo)
+    <span class="c-fn">gerar_relatorio</span>()
+
+<span class="c-cm"># ✓ 847 arquivos organizados</span>
+<span class="c-cm"># ✓ relatório salvo em 2.3s</span></pre>
+    </div>
+    <div class="stat-cards">
+      <div class="stat-card">
+        <span class="stat-num">−12h</span>
+        <span class="stat-label">por semana economizadas</span>
+      </div>
+      <div class="stat-card accent">
+        <span class="stat-num">R$ 0</span>
+        <span class="stat-label">de mensalidade depois</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LOGOS (PROVA SOCIAL LEVE) ============ -->
+<section class="logos-band">
+  <p class="logos-label">Clientes que eliminaram trabalho manual</p>
+  <div class="logos-row">
+    <span class="logo-pill">Imobiliária Silva</span>
+    <span class="logo-pill">Clínica DentalPró</span>
+    <span class="logo-pill">Distribuidora Norte</span>
+    <span class="logo-pill">Studio Moda BR</span>
+    <span class="logo-pill">TechFarm Agro</span>
+  </div>
+</section>
+
+<!-- ============ BENEFÍCIOS ============ -->
+<section class="section" id="beneficios">
+  <div class="section-label">Por que automatizar</div>
+  <h2 class="section-title">Seu tempo vale mais<br>do que copiar planilha.</h2>
+
+  <div class="benefits-grid">
+    <div class="benefit-card">
+      <div class="benefit-icon">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+          <circle cx="11" cy="11" r="9" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M11 6v5l3 3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <h3>Horas de volta no seu dia</h3>
+      <p>Tarefas que levam 3h manuais rodam em segundos. Relatório semanal, organização de arquivos, preenchimento de formulários — tudo automatizado.</p>
+    </div>
+
+    <div class="benefit-card">
+      <div class="benefit-icon">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+          <path d="M4 16l4-4 4 4 6-8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <h3>Zero erro humano</h3>
+      <p>Script não esquece, não copia errado e não se cansa. Você recebe o resultado correto toda vez, sem conferir linha por linha.</p>
+    </div>
+
+    <div class="benefit-card">
+      <div class="benefit-icon">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+          <rect x="3" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.5"/>
+          <rect x="12" y="3" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.5"/>
+          <rect x="3" y="12" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.5"/>
+          <rect x="12" y="12" width="7" height="7" rx="1" stroke="currentColor" stroke-width="1.5"/>
+        </svg>
+      </div>
+      <h3>Você fica com o script</h3>
+      <p>Sem assinatura mensal. Paga uma vez, usa para sempre. O código é seu — você pode modificar, compartilhar ou expandir quando quiser.</p>
+    </div>
+
+    <div class="benefit-card">
+      <div class="benefit-icon">
+        <svg width="22" height="22" viewBox="0 0 22 22" fill="none">
+          <path d="M11 3L3 7v5c0 4.4 3.4 8.5 8 9.5 4.6-1 8-5.1 8-9.5V7l-8-4z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+          <path d="M7.5 11l2.5 2.5 4.5-4.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <h3>Entrega testada e documentada</h3>
+      <p>Código comentado, testado com seus dados reais antes da entrega. Você recebe instruções de uso simples, sem precisar saber programar.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DEPOIMENTOS ============ -->
+<section class="section testimonials-section">
+  <div class="section-label">O que dizem os clientes</div>
+  <h2 class="section-title">Resultados reais,<br>não promessas.</h2>
+
+  <div class="testimonials-grid">
+    <blockquote class="testimonial">
+      <p>"Gastava 4 horas toda segunda organizando relatórios de vendas. Agora rodo o script e em 30 segundos está tudo pronto. Melhor investimento do trimestre."</p>
+      <footer>
+        <div class="testimonial-avatar">MR</div>
+        <div>
+          <strong>Marcos Ribeiro</strong>
+          <span>Gerente Comercial · Distribuidora Norte</span>
+        </div>
+      </footer>
+    </blockquote>
+
+    <blockquote class="testimonial">
+      <p>"Precisava mover centenas de arquivos de pacientes para pastas por data todo mês. Script entregue em 2 dias, funciona perfeito. Recomendo sem hesitar."</p>
+      <footer>
+        <div class="testimonial-avatar">AC</div>
+        <div>
+          <strong>Ana Cristina</strong>
+          <span>Coordenadora · Clínica DentalPró</span>
+        </div>
+      </footer>
+    </blockquote>
+
+    <blockquote class="testimonial featured">
+      <p>"Achei que ia ser complicado explicar o que eu precisava. Foi uma conversa de 10 minutos no WhatsApp. No dia seguinte estava funcionando."</p>
+      <footer>
+        <div class="testimonial-avatar">RP</div>
+        <div>
+          <strong>Rafael Pinto</strong>
+          <span>Proprietário · Studio Moda BR</span>
+        </div>
+      </footer>
+    </blockquote>
+  </div>
+</section>
+
+<!-- ============ COMO FUNCIONA ============ -->
+<section class="section how-section" id="como-funciona">
+  <div class="section-label">Processo</div>
+  <h2 class="section-title">Simples do começo<br>ao fim.</h2>
+
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">01</div>
+      <div class="step-body">
+        <h3>Você descreve o problema</h3>
+        <p>Me conta no WhatsApp ou e-mail o que você faz manualmente hoje. Não precisa saber de programação — só me diz: "todo dia eu faço isso..."</p>
+      </div>
+    </div>
+
+    <div class="step-divider" aria-hidden="true">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+        <path d="M10 3v14M5 13l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+
+    <div class="step">
+      <div class="step-num">02</div>
+      <div class="step-body">
+        <h3>Eu entrego o script pronto</h3>
+        <p>Em 1 a 3 dias úteis você recebe o código funcionando, testado e com um mini-guia de uso. Se algo não estiver certo, ajusto sem custo adicional.</p>
+      </div>
+    </div>
+
+    <div class="step-divider" aria-hidden="true">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+        <path d="M10 3v14M5 13l5 5 5-5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+
+    <div class="step">
+      <div class="step-num">03</div>
+      <div class="step-body">
+        <h3>Você usa e economiza</h3>
+        <p>O script é seu para sempre. Sem mensalidade, sem renovação. Você só roda quando precisar — e o tempo que economizou é todo seu.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA FINAL ============ -->
+<section class="cta-final" id="contato">
+  <div class="cta-final-inner">
+    <div class="section-label light">Próximo passo</div>
+    <h2>Qual tarefa você quer<br>nunca mais fazer?</h2>
+    <p>Me conta o problema. A primeira conversa é gratuita — você sai sabendo se dá para automatizar e quanto vai custar.</p>
+
+    <div class="cta-final-actions">
+      <a href="https://wa.me/55XXXXXXXXXXX?text=Oi%2C%20quero%20automatizar%20uma%20tarefa" class="btn-cta" target="_blank" rel="noopener">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+          <path d="M9 1.5C4.86 1.5 1.5 4.86 1.5 9c0 1.38.36 2.67.99 3.78L1.5 16.5l3.81-.99A7.46 7.46 0 009 16.5c4.14 0 7.5-3.36 7.5-7.5S13.14 1.5 9 1.5z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+          <path d="M6.5 6.8c.1.6.5 1.7 1.4 2.6.9.9 2 1.3 2.6 1.4.5.1 1-.2 1.3-.6l.2-.3c.1-.2 0-.5-.2-.6l-1-.6c-.2-.1-.5-.1-.6.1l-.3.3c-.1.1-.3.1-.4 0-.4-.2-1-.6-1.5-1.1-.5-.5-.9-1.1-1.1-1.5-.1-.1-.1-.3 0-.4l.3-.3c.2-.1.2-.4.1-.6l-.6-1c-.1-.2-.4-.3-.6-.2l-.3.2c-.4.3-.7.8-.6 1.3z" fill="currentColor"/>
+        </svg>
+        Falar pelo WhatsApp
+      </a>
+      <a href="mailto:henrique.busn@email.com" class="btn-secondary">
+        Ou envie um e-mail
+      </a>
+    </div>
+
+    <p class="cta-note">Resposta em até 4 horas em dias úteis.</p>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="footer-inner">
+    <span class="nav-logo">
+      <svg width="16" height="16" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+        <rect x="2" y="2" width="7" height="7" fill="currentColor"/>
+        <rect x="11" y="2" width="7" height="7" fill="currentColor" opacity=".4"/>
+        <rect x="2" y="11" width="7" height="7" fill="currentColor" opacity=".4"/>
+        <rect x="11" y="11" width="7" height="7" fill="currentColor"/>
+      </svg>
+      AutoNova
+    </span>
+    <p class="footer-copy">© <span id="year"></span> · Matheus Osorio · Desenvolvedor Freelancer</p>
+    <a href="https://github.com/OsorioDevx" class="footer-link" target="_blank" rel="noopener">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
+        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
+      </svg>
+      GitHub
+    </a>
+  </div>
+</footer>
+
+
+</body>
+</html>
