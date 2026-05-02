@@ -94,6 +94,6 @@ All colors and sizes are defined under `:root` in `style.css:`
 To change the accent color, simply update the --accent variable.
 ---
 
-## Licença
+## Licence
 
 MIT License - use, adapt, and distribute freely.
